@@ -1,0 +1,378 @@
+@font-face {
+    font-family: "Angst";
+    src: url(fonts/Angst-Normal.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .menu__img {
+    width: 40px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+header .menu p {
+    
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+
+/* начинается первый блок */
+.block_1 {
+  background-image: url(img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 1200px;  
+  position: relative;
+}
+
+.block_1 h1 {
+    width: 1200px;
+    height: 402px;
+    font-family: 'Angst', serif;
+    font-weight: 100;
+    font-size: 128px; 
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 20%;
+}
+
+.block_1 p {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    padding-top: 10%;
+    text-align: right;
+    padding-right: 100px;
+}
+
+nav .nav__block{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background-color: #dadadaa8;
+}
+
+.nav__ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__ul a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: 'Angst', serif;
+    font-weight: 100;
+    align-items: baseline;
+    padding-top: 50px;
+}
+
+.nav__ul a:hover {
+    text-decoration: underline;
+}
+
+/* начинается 2 блок */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.block_2 {
+    position: relative;
+    margin-bottom: 5%;
+}
+.block_2 .hr_1 {
+    width: 5px;
+    height: 90%;
+    background-color: black;
+    margin-left: 20%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+.block_2 .hr_2 {
+    width: 5px;
+    height: 90%;
+    background-color: black;
+    margin-left: 38.6%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+.block_2 .hr_3 {
+    width: 5px;
+    height: 80%;
+    background-color: black;
+    margin-left: 61.2%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+.block_2 .hr_4 {
+    width: 5px;
+    height: 80%;
+    background-color: black;
+    margin-left: 80%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+
+.first_img {
+    margin-top: 10%;
+    
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.first_img .border_grey {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(192, 192, 192);
+    border: 20px solid black;
+    display: block;
+    
+}
+
+.first_img img {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 3;
+    width: 350px;
+    height: 500px;
+}
+
+.first_img .info {
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    border: 2.5px solid black;
+    padding: 60px 40px 0 40px;
+    text-align: center;
+    
+}
+
+.first_img .info a.name {
+    width: 283px;
+    height: 134px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 48px;  
+    font-weight: 400;
+    text-decoration: none;  
+}
+
+.first_img .info a.pod {
+    width: 192px;
+    height: 45px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 32px;  
+    font-weight: 400;
+    text-decoration: none;  
+}
+
+.first_img .info hr {
+    width: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.second_img {
+    margin-top: 10%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.second_img .border_grey {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(192, 192, 192);
+    border: 20px solid black;
+    display: block;
+    
+}
+
+.second_img img {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 3;
+    width: 350px;
+    height: 500px;
+}
+
+.second_img .info {
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    border: 2.5px solid black;
+    padding: 60px 40px 0 40px;
+    text-align: center;
+    
+}
+
+.second_img .info a.name {
+    width: 283px;
+    height: 134px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 48px;  
+    font-weight: 400;
+    text-decoration: none;  
+}
+
+.second_img .info a.pod {
+    width: 192px;
+    height: 45px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 32px;  
+    font-weight: 400;
+    text-decoration: none;  
+}
+
+.second_img .info hr {
+    width: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.a_btn {
+    color: #070707;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    border: 5px solid black;
+    font-family: 'Angst';
+    padding: 20px 50px;
+}
+
+/* начинается футер */
+
+footer {
+    height: 450px;
+    background-color: #5a5a5a;
+    background-image: url(img/footer_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-main {
+    width: 30%;
+}
+
+footer .left {
+    position: relative;
+}
+
+footer .left .cub-1 {
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    border: 4px solid white;
+    top: 30px;
+    left: 50px;
+}
+
+footer .left .cub-2 {
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    border: 4px solid white;
+    top: 100px;
+    left: 150px;
+}
+
+footer .left .logo {
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 180px;
+}
+
+footer .right {
+    width: 60%;
+    padding-top: 50px;
+}
+
+footer .right .social {
+    margin-bottom: 30px;
+}
+
+footer .right .social .icons{
+    margin-right: 30px;
+}
+
+footer .right .info {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+}
+
+footer .right .info ul {
+    list-style-type: none;
+}
+
+footer .right .info ul li {
+    color: #fff;
+    font-family: 'Angst';
+    font-size: 22px;
+    line-height: 250%;
+}
+
+footer .right .info ul li:hover {
+    text-decoration: underline;
+}
+
+footer .right .info ul .first {
+    color: #fff;
+    font-family: 'Angst';
+    font-size: 30px;
+    line-height: 200%;
+}
