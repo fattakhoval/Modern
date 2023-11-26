@@ -451,7 +451,8 @@ footer .right .info ul .first {
     margin-left: 15%;
     border: 5px solid #5a5a5a;
     width: 1300px;
-    height: 1000px;
+    height: 1100px;
+    margin-bottom: 60px;
 }
 
 .bg-img {
@@ -496,5 +497,28 @@ footer .right .info ul .first {
 }
 
 .main_cours__btn {
+    width: 300px;
+    text-align: center;
+}
 
+.main_cours__btn {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+}
+
+.footer_cours {
+    height: 165px;
+    background-color: #5a5a5a;
+    background-image: url(img/footer-2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_cours .social-icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
