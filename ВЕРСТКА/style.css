@@ -693,67 +693,135 @@ footer .right .info ul .first {
 }
 
 .footer_cours .social-icons {
-    position: relative;
-    z-index: 0;
     width: 20%;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
     
 }
 
+/* начинается бургер часть модального окна */
 
-/* ИСТОРИЯ СОЗДАНИЯ */
-
-.main .info_1 {
+.modal {
     display: flex;
-    height: 500px;
-    gap: 300px;
-    top: 50px;
+    justify-content: flex-end;
 }
 
-.main .info_1 .left {
+.left-side {
+    width: 640px;
+    height: 1100px;
+    background: rgba(170, 170, 170, 0.80);
+    padding: 20px 30px 0 20px;
+}
+
+.left-side_menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 900px;
+    justify-content: flex-end;
     color: #000;
-    font-family: 'Bookman Old Style';
-    font-size: 32px;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 24px;
     font-style: normal;
     font-weight: 300;
-    padding-left: 7%
+    line-height: normal;
+    gap: 10px;
 }
 
-.main .info_1 {
+.left-side_links__ul {
     display: flex;
-    position: relative;
-    z-index: 0;
+    flex-direction: column;
+    gap: 40px;
+    list-style-type: none;
+    padding: 50px  0 0 80px;
+}
+
+.left-side_links__a {
+    color: #FFF;
+    font-family: Angst;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.left-side_links__a:hover {
+    text-decoration: underline;
+}
+
+/* начинаются блоки с формами регитрации и входа */
+
+.block-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-block {
+    width: 800px;
+    height: 750px;
+    flex-shrink: 0;
+    border: 20px solid #000;
+    background: #D9D9D9;
+    padding: 30px 0 0 0;
+}
+
+.form-block p {
+    color: #000;
+    text-align: center;
+    font-family: Angst;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0;
+}
+
+.form-block .reg {
+    margin-bottom: 0px;
+}
+
+.form-block form {
     
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-.main .info_1 .right .border {
+.form-block form .form__input {
+    margin-bottom: 50px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    border-bottom: 4px solid #000;
     width: 600px;
-    height: 400px;
-    border: 4px solid black;
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    right: 8.5%;
 }
 
-.main .info_1 .right .images {
-    background-image: url(img/9.jpg);
-    background-size: cover;
-    width: 600px;
-    height: 400px;
-    border: 4px solid black;
-    display: flex;
-    position: absolute;
-    z-index: 2;
-    top: 5%;
-    right: 10%;
-   
+.form-block form .form__input::placeholder {
+    color: #000;
+    font-family: "Lora";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form-btns {
+    width: 350px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 5px solid #070707;
+    background: #747474;
+    color: #FFF;
+    text-align: center;
+    font-family: Angst;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.sign-in-btn {
+    margin-top: 60px;
 }
