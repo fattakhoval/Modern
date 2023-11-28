@@ -557,3 +557,144 @@ footer .right .info ul .first {
     margin-top: 15px;
     
 }
+
+/* начинается страница с курсами */
+
+.header_cours {
+    height: 250px;
+    width: 100%;
+    background-image: url(img/header-img.png);
+    background-color: #5a5a5a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header_cours img{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+.header_cours h1 {
+    color: #fff;
+    font-family: 'Lora';
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.header__nav {
+    background-color: rgba(219, 219, 219, 0.255);
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+}
+
+.header__nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.header__nav ul a {
+    text-decoration: none;
+
+}
+
+.header__nav ul a li {
+    color: #fff;
+    font-family: 'Angst';
+    font-size: 28px;
+}
+
+.header__nav ul a li:hover {
+    text-decoration: underline;
+}
+
+/* main_cours */
+
+.main_cours {
+    position: relative;
+}
+
+.main_cours .sqr{
+    margin-top: 30px;
+    margin-left: 15%;
+    border: 5px solid #5a5a5a;
+    width: 1300px;
+    height: 1100px;
+    margin-bottom: 60px;
+}
+
+.bg-img {
+    position: absolute;
+    background-image: url(img/main.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    top: 10%;
+}
+
+.bg-img .text {
+    margin: 5% 10%;
+    width: 1500px;
+    height: 600px;
+    background-color: #afafaf85;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.bg-img .text .main-text {
+    color: #FFF;
+    font-family: 'Lora';
+    font-size: 48px;
+    font-weight: 300;
+    line-height: normal;
+    width: 60%;
+    margin-bottom: 30px;
+    
+}
+
+.bg-img .text .price {
+    color: #FFF;
+    font-family: 'Lora';
+    font-size: 64px;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.main_cours__btn {
+    width: 300px;
+    text-align: center;
+}
+
+.main_cours__btn {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+}
+
+.footer_cours {
+    height: 165px;
+    background-color: #5a5a5a;
+    background-image: url(img/footer-2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_cours .social-icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
