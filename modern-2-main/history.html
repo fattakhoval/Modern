@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header_cours"> 
+         
+        <img src="img/MODERN Art Studio.png" alt=""> 
+
+        <h1>НАЗВАНИЕ КУРСА</h1> 
+     
+
+    <nav class="header__nav"> 
+        <ul> 
+            <a href="our_courses.html"><li>Курсы</li></a> 
+            <a href="our_teachers.html"><li>наши преподаватели</li></a> 
+            <a href="index.html"><li>главная</li></a> 
+        </ul> 
+    </nav> 
+
+</div>
+
+    <div class="main">
+        <div class="info_1">
+            <div class="left">
+                1 этап: После долгих этапов обсуждения дизайна и проектирования каркаса студии, мы воссоздали наши идею с 3D-визуализаторе «Blender»
+            </div>
+            <div class="right">
+                <div class="border"></div>
+                <div class="images"><img src="img/9.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="info_2">
+            <div class="left">
+                <div class="border"></div>
+                <div class="images"><img src="img/10.jpg" alt=""></div>
+            </div>
+            <div class="right">
+                2 этап: Составили предварительную смету и приступили к закупке оборудования. Далее начали искать подходящие элементы декора для стилистики студии.
+            </div>
+        </div>
+
+        <div class="info_1">
+            <div class="left">
+                3 этап: После закупки материалов и оборудования, мы полноправно начали всем пользоваться и активно проводить мастер-классы для всех возрастов!
+            </div>
+            <div class="right">
+                <div class="border"></div>
+                <div class="images"><img src="img/11.jpg" alt=""></div>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="btn_history">
+        <a href="index.html" class="a_btn">
+        <img src="img/Vector.png" alt="">
+        НА ГЛАВНУЮ</a>
+    </div>
+
+    <div class="footer_cours">
+        <div class="social-icons">
+            <a href=""><img src="img/inst.png" alt=""></a>
+            <a href=""><img src="img/tg.png" alt=""></a>
+            <a href=""><img src="img/vk.png" alt=""></a>
+        </div>
+    </div>
+
+    <div  id="topNubex" class="scroll">
+        <img src="img/scroll.png" alt="" >
+    </div>
+    
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+    <script> 
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#topNubex').fadeIn();
+    } else {
+    $('#topNubex').fadeOut();
+    }
+    });
+    $('#topNubex').click(function() {
+    $('body,html').animate({scrollTop:0},700);
+    });
+    });
+    </script>
+</body>
+</html>

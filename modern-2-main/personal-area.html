@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header_cours">
+        
+        <img src="img/MODERN Art Studio.png" alt="">
+
+        <h1>ЛИЧНЫЙ КАБИНЕТ</h1>
+    
+
+        <nav class="header__nav">
+            <ul>
+                <a href="history.html"><li>История создания</li></a>
+                <a href="index.html"><li>главная</li></a>
+                <a href="our_teachers.html"><li>наши преподаватели</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="personal-area-block">
+
+        <div class="profile">
+            <div class="profile__img">
+                <div class="profile__img-block">
+                    <div class="profile__img-img">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                
+                <p>фото профиля</p>
+            </div>
+
+            <div class="profile__form">
+                <label for="name">
+                    <input type="text" id="name" placeholder="Имя" class="form__input">
+                </label>
+
+                <label for="surname">
+                    <input type="text" id="surname" placeholder="Фамилия" class="form__input">
+                </label>
+
+                <label for="phone">
+                    <input type="tel" id="phone" placeholder="Телефон" class="form__input">
+                </label>
+            </div>
+        </div>
+
+        <div class="profile">
+
+        <table class="personal-area_table">
+            <thead>
+            <tr>
+                <th>№</th>
+                <th>Мои курсы</th>
+                <th>Управление</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+         <button class="personal-area-btn"><img src="" alt=""></button>
+    </div>
+
+    </div>
+
+     
+
+    <div class="footer_cours">
+        <div class="social-icons">
+            <a href=""><img src="img/inst.png" alt=""></a>
+            <a href=""><img src="img/tg.png" alt=""></a>
+            <a href=""><img src="img/vk.png" alt=""></a>
+        </div>
+    </div>
+
+    <div  id="topNubex" class="scroll">
+        <img src="img/scroll.png" alt="" >
+    </div>
+    
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+    <script> 
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#topNubex').fadeIn();
+    } else {
+    $('#topNubex').fadeOut();
+    }
+    });
+    $('#topNubex').click(function() {
+    $('body,html').animate({scrollTop:0},700);
+    });
+    });
+    </script>
+</body>
+</html>

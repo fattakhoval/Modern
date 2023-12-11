@@ -1,0 +1,1236 @@
+@font-face {
+    font-family: "Angst";
+    src: url(fonts/Angst-Normal.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+/* header */
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__img {
+    width: 40px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+header .menu p {
+    
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+
+/* начинается первый блок */
+.block_1 {
+  background-image: url(img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 1200px;  
+  position: relative;
+}
+
+.block_1 h1 {
+    width: 1200px;
+    height: 402px;
+    font-family: 'Angst', serif;
+    font-weight: 100;
+    font-size: 128px; 
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 20%;
+}
+
+.block_1 p {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    padding-top: 10%;
+    text-align: right;
+    padding-right: 100px;
+}
+
+nav .nav__block{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background-color: #dadadaa8;
+}
+
+.nav__ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__ul a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: 'Angst', serif;
+    font-weight: 100;
+    align-items: baseline;
+    padding-top: 50px;
+}
+
+.nav__ul a:hover {
+    text-decoration: underline;
+}
+
+/* начинается 2 блок */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.block_2 {
+    position: relative;
+    margin-bottom: 5%;
+}
+.block_2 .hr_1 {
+    width: 5px;
+    height: 90%;
+    background-color: black;
+    margin-left: 20%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+.block_2 .hr_2 {
+    width: 5px;
+    height: 90%;
+    background-color: black;
+    margin-left: 38.6%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+.block_2 .hr_3 {
+    width: 5px;
+    height: 80%;
+    background-color: black;
+    margin-left: 61.2%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+.block_2 .hr_4 {
+    width: 5px;
+    height: 80%;
+    background-color: black;
+    margin-left: 80%;
+    position: absolute;
+    z-index: 0;
+    border: none;
+}
+
+.first_img {
+    margin-top: 10%;
+    
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.first_img .border_grey {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(192, 192, 192);
+    border: 20px solid black;
+    display: block;
+    
+}
+
+.first_img img {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 3;
+    width: 350px;
+    height: 500px;
+}
+
+.first_img .info {
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    border: 2.5px solid black;
+    padding: 60px 40px 0 40px;
+    text-align: center;
+    
+}
+
+.first_img .info a.name {
+    width: 283px;
+    height: 134px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 40px;  
+    font-weight: 400;
+    text-decoration: none; 
+     
+}
+
+.first_img .info a.pod {
+    width: 192px;
+    height: 45px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 32px;  
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;  
+}
+
+.first_img .info hr {
+    width: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.second_img {
+    margin-top: 10%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.second_img .border_grey {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(192, 192, 192);
+    border: 20px solid black;
+    display: block;
+    
+}
+
+.second_img img {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 3;
+    width: 350px;
+    height: 500px;
+}
+
+.second_img .info {
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    border: 2.5px solid black;
+    padding: 60px 40px 0 40px;
+    text-align: center;
+    
+}
+
+.second_img .info a.name {
+    width: 283px;
+    height: 134px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 40px;  
+    font-weight: 400;
+    text-decoration: none;  
+}
+
+.second_img .info a.pod {
+    width: 192px;
+    height: 45px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 32px;  
+    font-weight: 400;
+    text-decoration: none;  
+}
+
+.second_img .info hr {
+    width: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.a_btn {
+    color: #070707;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    border: 5px solid black;
+    font-family: 'Angst';
+    padding: 20px 50px;
+}
+
+/* начинается футер */
+
+footer {
+    height: 450px;
+    background-color: #5a5a5a;
+    background-image: url(img/footer_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-main {
+    width: 30%;
+}
+
+footer .left {
+    position: relative;
+}
+
+footer .left .cub-1 {
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    border: 4px solid white;
+    top: 30px;
+    left: 50px;
+}
+
+footer .left .cub-2 {
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    border: 4px solid white;
+    top: 100px;
+    left: 150px;
+}
+
+footer .left .logo {
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 180px;
+}
+
+footer .right {
+    width: 60%;
+    padding-top: 50px;
+}
+
+footer .right .social {
+    margin-bottom: 30px;
+}
+
+footer .right .social .icons{
+    margin-right: 30px;
+}
+
+footer .right .info {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+}
+
+footer .right .info ul {
+    list-style-type: none;
+}
+
+footer .right .info ul li {
+    color: #fff;
+    font-family: 'Angst';
+    font-size: 22px;
+    line-height: 250%;
+}
+
+footer .right .info ul li:hover {
+    text-decoration: underline;
+}
+
+footer .right .info ul .first {
+    color: #fff;
+    font-family: 'Angst';
+    font-size: 30px;
+    line-height: 200%;
+}
+
+
+/* НАШИ КУРСЫ */
+
+.header_cours { 
+    height: 250px; 
+    width: 100%; 
+    background-image: url(img/6\ 5.png); 
+    background-color: #5a5a5a; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    position: relative; 
+} 
+ 
+.header_cours img{ 
+    position: absolute; 
+    top: 40px; 
+    left: 60px; 
+} 
+ 
+.header_cours h1 { 
+    color: #fff; 
+    font-family: 'Lora'; 
+    font-weight: 300; 
+    font-size: 46px; 
+    text-align: center; 
+    padding-top: 60px; 
+} 
+ 
+.header__nav { 
+    background-color: rgba(219, 219, 219, 0.255); 
+    height: 100px; 
+    position: absolute; 
+    bottom: 0; 
+ 
+    width: 100%; 
+} 
+ 
+.header__nav ul{ 
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-around; 
+    padding-top: 35px; 
+} 
+ 
+.header__nav ul a { 
+    text-decoration: none; 
+ 
+} 
+ 
+.header__nav ul a li { 
+    color: #fff; 
+    font-family: 'Angst'; 
+    font-size: 28px; 
+} 
+ 
+.header__nav ul a li:hover { 
+    text-decoration: underline; 
+}
+
+/* начинается гланвый блок */
+
+.main__our_course {
+    height: 3600px;
+    position: relative;
+    z-index: 0;
+}
+
+.main__our_course .border1__our_course{
+    left: 0;
+    width: 600px;
+    height: 2000px;
+    border: 5px solid rgba(83, 83, 83, 0.623);
+    margin: 50px 0px 0px 450px;
+    position: absolute;
+    z-index: 1;
+}
+
+.main__our_course .border2__our_course{
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 2000px;
+    border: 5px solid rgba(83, 83, 83, 0.623);
+    margin: 0px 450px 50px 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.main__our_course .cards .card1 {
+    width: 1968;
+    height: 600px;
+    background-image: url(img/photo_5330351300111630530_y.jpg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.main__our_course .cards .card2 {
+    width: 1968;
+    height: 600px;
+    background-image: url(img/photo_5330351300111630531_y.jpg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.main__our_course .cards .card3 {
+    width: 1968;
+    height: 600px;
+    background-image: url(img/photo_5330351300111630534_y.jpg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.main__our_course .cards .card4 {
+    width: 1968;
+    height: 600px;
+    background-image: url(img/photo_5330351300111630535_y.jpg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.main__our_course .cards .card5 {
+    width: 1968;
+    height: 600px;
+    background-image: url(img/photo_5330351300111630533_y.jpg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.main__our_course .cards .text {
+    position: absolute;
+    right: 0;
+    margin: 180px 100px 0px 0px ;
+    width: 750px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 20px;
+}
+
+.main__our_course .cards .text2 {
+    position: absolute;
+    left: 0;
+    margin: 180px 0px 0px 100px ;
+    width: 750px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 20px;
+}
+
+.main__our_course .cards .name_text {
+    color: #000000;
+    text-decoration: none;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 64px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.main__our_course .cards .name_text:hover {
+    color: #5a5a5a;
+}
+
+.main__our_course .cards hr {
+    width: 350px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+/* начинается страница с курсами */
+
+.header_cours {
+    height: 250px;
+    width: 100%;
+    background-image: url(img/header-img.png);
+    background-color: #5a5a5a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header_cours img{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+.header_cours h1 {
+    color: #fff;
+    font-family: 'Lora';
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.header__nav {
+    background-color: rgba(219, 219, 219, 0.255);
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+}
+
+.header__nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.header__nav ul a {
+    text-decoration: none;
+
+}
+
+.header__nav ul a li {
+    color: #fff;
+    font-family: 'Angst';
+    font-size: 28px;
+}
+
+.header__nav ul a li:hover {
+    text-decoration: underline;
+}
+
+/* main_cours */
+
+.main_cours {
+    position: relative;
+}
+
+.main_cours .sqr{
+    margin-top: 30px;
+    margin-left: 15%;
+    border: 5px solid #5a5a5a;
+    width: 1300px;
+    height: 1100px;
+    margin-bottom: 60px;
+}
+
+.bg-img {
+    position: absolute;
+    background-image: url(img/main.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    top: 10%;
+}
+
+.bg-img .text {
+    margin: 5% 10%;
+    width: 1500px;
+    height: 600px;
+    background-color: #afafaf85;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.bg-img .text .main-text {
+    color: #FFF;
+    font-family: 'Lora';
+    font-size: 48px;
+    font-weight: 300;
+    line-height: normal;
+    width: 60%;
+    margin-bottom: 30px;
+    
+}
+
+.bg-img .text .price {
+    color: #FFF;
+    font-family: 'Lora';
+    font-size: 64px;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.main_cours__btn {
+    width: 300px;
+    text-align: center;
+}
+
+.main_cours__btn {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+}
+
+.footer_cours {
+    height: 165px;
+    background-color: #5a5a5a;
+    background-image: url(img/footer-2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_cours .social-icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* начинается бургер часть модального окна */
+
+.modal {
+    display: none;
+    position: fixed;
+    right: -100%; /* Изменено значение на отрицательное */
+    top: 0;
+    width: 33%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: right 0.5s ease-in-out; /* Изменено свойство на right */
+}
+
+.modal.show {
+    right: 0;
+  }
+
+.left-side {
+    width: 640px;
+    height: 1100px;
+    background: rgb(124, 124, 124);
+    padding: 20px 30px 0 20px;
+}
+.close-img{
+    width: 40px;
+    height: 18px;
+}
+.left-side_menu {
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    gap: 10px;
+    align-items: center;
+    align-content: flex-end;
+    
+}
+
+.left-side_links__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style-type: none;
+    padding: 50px  0 0 80px;
+}
+
+.left-side_links__a {
+    color: #FFF;
+    font-family: Angst;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.left-side_links__a:hover {
+    text-decoration: underline;
+}
+
+/* начинаются блоки с формами регитрации и входа */
+
+.block-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-block {
+    width: 800px;
+    height: 750px;
+    flex-shrink: 0;
+    border: 20px solid #000;
+    background: #D9D9D9;
+    padding: 30px 0 0 0;
+}
+
+.form-block p {
+    color: #000;
+    text-align: center;
+    font-family: Angst;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0;
+}
+
+.form-block .reg {
+    margin-bottom: 0px;
+}
+
+.form-block form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-block form .form__input {
+    margin-bottom: 50px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    border-bottom: 4px solid #000;
+    width: 600px;
+}
+
+.form-block form .form__input::placeholder, select {
+    color: #000;
+    font-family: "Lora";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form-btns {
+    width: 350px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 5px solid #070707;
+    background: #747474;
+    color: #FFF;
+    text-align: center;
+    font-family: Angst;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.sign-in-btn {
+    margin-top: 45px;
+}
+
+.submit-app__foorm {
+    padding-top: 80px;
+}
+
+.reg__btn {
+    margin-top: 50px;
+}
+
+/* начинается страница личнг кабинета */
+
+.personal-area-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    padding: 50px 0;
+}
+
+.profile {
+    width: 900px;
+    height: 400px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.profile p {
+    color: #000;
+    font-family: "Lora";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+.profile__img-block {
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__img-img {
+    
+    
+    width: 200px;
+    height: 250px;
+    background-color: #747474;
+}
+
+.profile__form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile__form .form__input {
+    margin-bottom: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 4px solid #000;
+    width: 300px;
+    color: #000;
+    font-family: "Lora";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.personal-area_table {
+	width: 100%;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.personal-area_table th {
+	font-weight: bold;
+	padding:  10px;
+	border: 1px solid #dddddd;
+    color: #000;
+    text-align: center;
+    font-family: Angst;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.personal-area_table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.personal-area-btn {
+    background-color: #FFF;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: 15%;
+    bottom: 50px;
+    background-image: url(img/Vector\ \(1\).png);
+    background-size: cover;
+}
+
+/* АДМИНСКАЯ ЧАСТЬ */
+
+/* начинает страница заявок */
+
+.admin-main-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.admin_block {
+    width: 90%;
+    height: 1000px;
+    border: 10px solid #D9D9D9;
+    padding: 20px;
+}
+
+.admin_block .personal-area_table {
+    height: 100%;
+}
+
+.modal--active{
+    visibility: visible;
+}
+.modal--active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* ИСТОРИЯ СОЗДАНИЯ */
+
+.main .info_1 {
+    display: flex;
+    height: 500px;
+    gap: 300px;
+    top: 50px; 
+    display: flex;
+    position: relative;
+    z-index: 0;  
+}
+
+.main .info_1 .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    color: #000;
+    font-family: 'Lora';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 9%
+}
+
+.main .info_1 .right .border {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    right: 8.5%;
+}
+
+.main .info_1 .left:hover {
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+.main .info_1 .right .images img {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    right: 10%;
+   
+}
+
+.main .info_2 {
+    display: flex;
+    height: 500px;
+    gap: 300px;
+    top: 50px;
+    position: relative;
+    z-index: 0;
+    align-items: center;
+}
+
+.main .info_2 .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    width: 600px;
+    color: #000;
+    font-family: 'Lora';
+    font-size: 32px;
+    font-weight: 300;
+    position: absolute;
+    z-index: 1;
+    right: 8%;
+}
+
+.main .info_2 .right:hover {
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+.main .info_2 .left .border {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: 8.5%;
+    top: 0;
+}
+
+.main .info_2 .left .images img {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 10%;
+}
+
+.btn_history { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.btn_history .a_btn {
+    width: 300;
+    color: #000;
+    text-align: center;
+    font-family: 'Angst';
+    font-size: 32px;
+}
+
+/* НАШИ ПРЕПОДАВАТЕЛИ */
+
+.main_our_teachers {
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_our_teachers .border {
+    width: 1689px;
+    height: 1000px;
+    border: 4px solid black;
+    padding-bottom: 2%;
+}
+
+.main_our_teachers .info_1 {
+    display: flex;
+    height: 500px;
+    gap: 300px;
+    top: 50px; 
+    display: flex;
+    position: relative;
+    z-index: 0;  
+}
+
+.main_our_teachers .info_1 .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    color: #000;
+    font-family: 'Lora';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 4%
+}
+
+.main_our_teachers .info_1 .right .border {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    right: 8.5%;
+    top: 5%;
+}
+
+.main_our_teachers .info_1 .right .images img {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    right: 10%;
+}
+
+.main_our_teachers .info_2 {
+    display: flex;
+    height: 500px;
+    gap: 300px;
+    top: 50px;
+    position: relative;
+    z-index: 0;
+    align-items: center;
+}
+
+.main_our_teachers .info_2 .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 4%;
+    width: 700px;
+    color: #000;
+    font-family: 'Lora';
+    font-size: 32px;
+    font-weight: 300;
+    position: absolute;
+    z-index: 1;
+}
+
+.main_our_teachers .info_2 .left .border {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: 8.5%;
+    bottom: 7%;
+}
+
+.main_our_teachers .info_2 .left .images img {
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 10%;
+}
+
+
+/* скролл */
+
+.scroll {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
