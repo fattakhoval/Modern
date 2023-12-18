@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header_cours">
+        
+        <img src="img/MODERNArtStudio.png" alt="">
+
+        <h1>ОСТАВИТЬ ЗАЯВКУ</h1>
+    
+
+        <nav class="header__nav">
+            <ul>
+                <a href="history.html"><li>История создания</li></a>
+                <a href="index.html"><li>главная</li></a>
+                <a href="our_teachers.html"><li>наши преподаватели</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="block-form">
+
+        <div class="form-block submit-app__foorm">
+            <form action="">
+                <label for="surname">
+                    <input type="text" id="surname" class="form__input" placeholder="Фамилия">
+                </label>
+
+                <label for="name">
+                    <input type="text" id="name" class="form__input" placeholder="Имя">
+                </label>
+
+                <label for="tel-num">
+                    <input type="tel" id="tel-num" class="form__input" placeholder="Телефон">
+                </label>
+
+                <label for="coerses">
+                    <input type="password" id="pass" class="form__input" placeholder="Пароль">
+                </label>
+
+                <select class="form__input">
+                    <option value="">Курсы</option>
+                    <option value="">Живопись</option>
+                    <option value="">Мастер-класс</option>
+                    <option value="">Творческие занятия</option>
+                    <option value="">Скетчинг</option>
+                    <option value="">Скульптура</option>
+                </select>
+
+                <button class="form-btns reg__btn">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer_cours">
+        <div class="social-icons">
+            <a href=""><img src="img/inst.png" alt=""></a>
+            <a href=""><img src="img/tg.png" alt=""></a>
+            <a href=""><img src="img/vk.png" alt=""></a>
+        </div>
+    </div>
+
+    <div  id="topNubex" class="scroll">
+        <img src="img/scroll.png" alt="" >
+    </div>
+    
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+    <script> 
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#topNubex').fadeIn();
+    } else {
+    $('#topNubex').fadeOut();
+    }
+    });
+    $('#topNubex').click(function() {
+    $('body,html').animate({scrollTop:0},700);
+    });
+    });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header_cours">
+        
+            <img src="img/MODERNArtStudio.png" alt="">
+
+            <h1>НАЗВАНИЕ КУРСА</h1>
+        
+
+        <nav class="header__nav">
+            <ul>
+                <a href="history.html"><li>История создания</li></a>
+                <a href="index.html"><li>главная</li></a>
+                <a href="our_teachers.html"><li>наши преподаватели</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main_cours">
+        <div class="sqr">
+            <a href="submit-app.html" class="a_btn main_cours__btn">записаться на курс</a>
+        </div>
+
+        <div class="bg-img">
+            <div class="text">
+                <p class="main-text">Figma ipsum component variant main layer. Strikethrough font image library align pixel. Prototype flatten layer object plugin create follower pixel flatten. Auto editor ipsum connection main reesizing editor edit. Pencil editor font clip pencil frame component.</p>
+                <p class="price">4800 рублей </p>
+                <hr>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="footer_cours">
+        <div class="social-icons">
+            <a href=""><img src="img/inst.png" alt=""></a>
+            <a href=""><img src="img/tg.png" alt=""></a>
+            <a href=""><img src="img/vk.png" alt=""></a>
+        </div>
+    </div>
+
+    <div  id="topNubex" class="scroll">
+        <img src="img/scroll.png" alt="" >
+    </div>
+    
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+    <script> 
+    $(function() {
+    $(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+    $('#topNubex').fadeIn();
+    } else {
+    $('#topNubex').fadeOut();
+    }
+    });
+    $('#topNubex').click(function() {
+    $('body,html').animate({scrollTop:0},700);
+    });
+    });
+    </script>
+</body>
+</html>
